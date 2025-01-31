@@ -13,3 +13,20 @@ Choose between monolithic and microservice architectures.
 Monitor CI/CD pipelines for optimization.
 Deploy software using Infrastructure as Code (IaC) and cloud computing.
 Integrate security practices into DevOps workflows.
+
+Topical Outline:
+BASH & CLI (Why DevOps?, Intro to CI/CD)
+Git & GitHub (Version Control, Project Tracking)
+Software Architecture (Monolith vs Microservices)
+DevOps Tools & Roles
+Hosting & Build Automation
+CI/CD Pipelines (Jenkins, Infrastructure Deployment)
+Midterm Exam
+Break Week
+Cloud Databases (SQL vs NoSQL)
+Cloud Computing & Infrastructure
+DevOps Security & Testing
+CI Pipelines vs Assembly Lines
+Containerization & Automation Tools
+DevOps Career Path & Market Demand
+Final Exam
