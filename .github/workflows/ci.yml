@@ -1,0 +1,46 @@
+name: Continuous Integration for COMP2156 Group Assignment
+
+on:
+  push:
+    branches:
+      - main
+      - "*/" # This pattern will match all branches, including those following the STUDENTID-Name format
+  pull_request:
+    branches:
+      - main # Triggers the CI pipeline on pull requests to the main branch.
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the code from the repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Python (you can remove this if you're not using Python)
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.8" # Adjust if you're using a different language
+
+      # Step 3: Install dependencies (for Python, adjust as needed for other languages)
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt  # Adjust if you're using a different package manager or dependencies
+
+      # Step 4: Run tests (adjust this step for your specific testing framework or omit it if unnecessary)
+      - name: Run tests
+        run: |
+          pytest  # Replace this with the command you use for testing (e.g., 'npm test' or 'mvn test')
+
+      # Step 5: Linting or additional checks (optional, but recommended for code quality)
+      - name: Run Linter
+        run: |
+          # Run linting (example for Python, adjust for other languages)
+          pylint *.py  # Replace this with the appropriate linting command for your language
+
+      # Step 6: Display success or failure message
+      - name: Display results
+        run: |
+          echo "CI Pipeline Complete"
