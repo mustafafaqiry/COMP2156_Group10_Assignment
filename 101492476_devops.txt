@@ -1,0 +1,3 @@
+Summary of COMP2156 - DevOps for System Administration
+Course Overview:
+This course covers DevOps principles, tools, and best practices to enhance productivity in system administration. Students will learn CI/CD, containerization, automation, version control (Git), cloud computing, and software development lifecycle (SDLC). Topics include XML, JSON, YAML, YANG, Ansible, and Git for network automation.
