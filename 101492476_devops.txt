@@ -1,3 +1,15 @@
 Summary of COMP2156 - DevOps for System Administration
 Course Overview:
 This course covers DevOps principles, tools, and best practices to enhance productivity in system administration. Students will learn CI/CD, containerization, automation, version control (Git), cloud computing, and software development lifecycle (SDLC). Topics include XML, JSON, YAML, YANG, Ansible, and Git for network automation.
+
+Course Outcomes:
+By the end of this course, students will be able to:
+
+Apply DevOps processes using industry-standard tools.
+Implement CI/CD, cloud databases, and containerization.
+Automate software configurations and operations.
+Utilize Version Control Systems (VCS) for optimized software releases.
+Choose between monolithic and microservice architectures.
+Monitor CI/CD pipelines for optimization.
+Deploy software using Infrastructure as Code (IaC) and cloud computing.
+Integrate security practices into DevOps workflows.
