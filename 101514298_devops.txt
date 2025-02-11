@@ -1,1 +1,2 @@
 COMP 2156 – DevOps for System Administration focuses on automation, CI/CD, and infrastructure management.
+It teaches students how to streamline system administration tasks using scripting, configuration management, and cloud technologies.
