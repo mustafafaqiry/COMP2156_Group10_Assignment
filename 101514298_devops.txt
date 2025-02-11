@@ -1,0 +1,1 @@
+COMP 3104 DevOps course teaches automation, CI/CD, and cloud infrastructure management.
