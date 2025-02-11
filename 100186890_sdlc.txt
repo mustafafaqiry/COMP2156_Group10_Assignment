@@ -1,1 +1,2 @@
 Learning DevOps is important because DevOps shortens the development time of software by automating tasks and allowing many programmers to work collaboratively. According to github.com, "DevOps is a holistic business practice that combines people, technologies, cultural practices, and processes to bring previously siloed teams together to deliver better software faster."
+For example, in this group assignment several contributors are working collaboratively.
