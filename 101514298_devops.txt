@@ -1,0 +1,5 @@
+COMP 2156 – DevOps for System Administration
+This course focuses on automation, continuous integration and deployment (CI/CD),
+and infrastructure management. Students learn to streamline system administration tasks using scripting,
+configuration management, and cloud technologies. Key tools covered include Git, Docker, and Ansible,
+equipping students with the skills needed for efficient deployment and system maintenance in real-world IT environments.
