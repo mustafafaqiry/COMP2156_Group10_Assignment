@@ -1,0 +1,29 @@
+name: Continuous Integration for COMP2156 Group Assignment
+
+on:
+  push:
+    branches:
+      - main
+      - "*/" # This pattern will match all branches, including STUDENTID-Name
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the code from the repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Step 2: Display repository structure or files in the directory
+      - name: List files in the repository
+        run: |
+          ls -R  # List all files in the repository
+
+      # Step 3: Display success or failure message
+      - name: Display results
+        run: |
+          echo "CI Pipeline Complete"
